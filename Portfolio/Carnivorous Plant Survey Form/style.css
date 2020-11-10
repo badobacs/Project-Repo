@@ -3,7 +3,7 @@
     --color-white: #f3f3f3;
     --color-darkblue: #1b1b32;
     --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
-    --color-green: #43cf79;
+    --color-green: #05cc51;
 }
 
 *,
@@ -33,7 +33,7 @@ body::before {
     width: 100%;
     z-index: -1;
     background: var(--color-darkblue);
-    background-image: linear-gradient( 110deg, rgba(126, 158, 58, 0.8), rgba(58, 158, 158, 0.7)), url(https://raw.githubusercontent.com/badobacs/Teszt/master/husham/Pic/KEP_00991.jpg);
+    background-image: linear-gradient( 110deg, rgba(126, 158, 58, 0.8), rgba(58, 158, 158, 0.7)), url(https://raw.githubusercontent.com/badobacs/Project-Repo/master/Portfolio/KEP_0231.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
