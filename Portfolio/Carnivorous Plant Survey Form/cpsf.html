@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carnivorous Plant Survey Formt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 id="title" class="text-center">
+                Carnivorous Plant Survey Form
+            </h1>
+            <p id="description" class="description text-center">
+                Thank you for taking the time to help me with the statistical survey.
+            </p>
+        </header>
+        <form id="survey-form">
+            <div class="form-group">
+                <label id="name-label" for="name">Name</label>
+                <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required/>
+            </div>
+            <div class="form-group">
+                <label id="email-label" for="email">Email</label>
+                <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email" required/>
+            </div>
+            <div class="form-group">
+                <label id="number-label" for="number">Age<span class="clue">(optional)</span></label>
+                <input type="number" name="age" id="number" min="12" max="100" class="form-control" placeholder="Age" required/>
+            </div>
+            <div class="form-group">
+                <p>How did you first hear about Carnivorous Plants?
+                    </>
+                    <select id="dropdown" name="role" class="form-control" required> 
+            <option disabled selected value>Select current role</option>
+            <option value="friends">From friends</option>
+            <option value="media">From media</option>
+            <option value="books">From books</option>
+            <option value="other">Other</option>
+            </select>
+
+
+            </div>
+            <div class="form-group">
+                <p>Would you recommend Carnivorous Plants to a friend?</p>
+                <input name="user-recommend" value="definitely" type="radio" class="input-radio" checked />Definitely</label>
+                <label>
+              <input
+                name="user-recommend"
+                value="maybe"
+                type="radio"
+                class="input-radio"
+                checked
+              />Maybe</label>
+                <label>
+              <input
+                name="user-recommend"
+                value="not sure"
+                type="radio"
+                class="input-radio"
+                checked
+              >Not sure</label>
+            </div>
+            <div class="form-group">
+                <p>What is your favorite Plant species of Carnivorous Plant?</p>
+                <textarea id="comments" class="input-textarea" name="comment" placeholder="My favorite Plant species is..."></textarea>
+            </div>
+            <div class="form-group">
+                <p>
+                    Which plant species do you have in your inventory?
+
+                    <span class="clue">(Check all that apply)</span></p>
+                <label><input
+                name="prefer"
+                value="front-end-projects"
+                type="checkbox"
+                class="input-checkbox"
+              />Droseras</label>
+                <label><input
+                name="prefer"
+                value="front-end-projects"
+                type="checkbox"
+                class="input-checkbox"
+              />Dionea</label>
+                <label><input
+                name="prefer"
+                value="front-end-projects"
+                type="checkbox"
+                class="input-checkbox"
+              />Nepenthes</label>
+                <label><input
+                name="prefer"
+                value="front-end-projects"
+                type="checkbox"
+                class="input-checkbox"
+              />Sarracenias</label>
+                <label><input
+                name="prefer"
+                value="front-end-projects"
+                type="checkbox"
+                class="input-checkbox"
+              />Droseras</label>
+                <label><input
+                name="prefer"
+                value="front-end-projects"
+                type="checkbox"
+                class="input-checkbox"
+              />Pinguiculas</label>
+                <label><input
+                name="prefer"
+                value="front-end-projects"
+                type="checkbox"
+                class="input-checkbox"
+              />Other</label>
+            </div>
+            <div class="form-group">
+                <button type="submit" id="submit" class="submit-button">
+          Submit</button>
+            </div>
+            <form>
+    </div>
+</body>
+
+</html>
