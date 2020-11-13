@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gayathri:wght@700&display=swap'):root {
+@import url('https://fonts.googleapis.com/css2?family=Gayathri:wght@700&display=swap');
+:root {
     --color-white: #f3f3f3;
     --color-darkblue: #1b1b32;
     --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
