@@ -1,35 +1,46 @@
-html {
-    background-image: linear-gradient( 10deg, rgba(126, 158, 58, 0.8), rgba(58, 158, 158, 0.7)), url(https://raw.githubusercontent.com/badobacs/Project-Repo/master/Portfolio/KEP_00991.jpg);
-    margin: 0;
-    top: 0;
-}
-
-nav {
-    display: flex;
-    justify-content: last baseline;
-    position: fixed;
-    width: 100%;
-    height: 70px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 10px;
-    color: antiquewhite;
-    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
-    z-index: 110;
-}
-
-ul {
-    direction: row;
-    list-style-type: none;
-    display: flex;
-    margin-left: 10px;
-}
-
-.navbar-brand {
-    font-family: 'Oleo Script Swash Caps', cursive;
-    font-size: x-large;
-    color: white;
-    text-align: center;
-    padding-left: 50px;
-}
+    html {
+        background-image: linear-gradient( 10deg, rgba(126, 158, 58, 0.8), rgba(58, 158, 158, 0.7)), url(https://raw.githubusercontent.com/badobacs/Project-Repo/master/Portfolio/KEP_00991.jpg);
+        margin: 0;
+        top: 0;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: last baseline;
+        position: fixed;
+        width: 100%;
+        height: 70px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 10px;
+        color: antiquewhite;
+        box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+        z-index: 110;
+    }
+    
+    ul {
+        direction: row;
+        list-style-type: none;
+        display: flex;
+        margin-left: 10px;
+    }
+    
+    .navbar-brand {
+        font-family: 'Oleo Script Swash Caps', cursive;
+        margin-top: 10px;
+        font-size: x-large;
+        color: white;
+        text-align: center;
+        padding-left: 50px;
+    }
+    
+    .dropdown-menu {
+        background: none;
+        font-size: x-large;
+        color: antiquewhite;
+    }
+    
+    .welcome-section {
+        text-align: center;
+    }
