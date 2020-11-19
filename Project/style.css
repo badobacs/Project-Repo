@@ -1,108 +1,107 @@
-    html {
-        background-image: linear-gradient( 10deg, rgba(126, 158, 58, 0.8), rgba(58, 158, 158, 0.7)), url(https://raw.githubusercontent.com/badobacs/Project-Repo/master/Portfolio/KEP_00991.jpg);
-        margin: 0;
-        top: 0;
-    }
-    
-    nav {
-        display: flex;
-        justify-content: last baseline;
-        position: fixed;
-        width: 100%;
-        height: 70px;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        border-radius: 10px;
-        color: antiquewhite;
-        box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
-        z-index: 110;
-    }
-    
-    ul {
-        direction: row;
-        list-style-type: none;
-        display: flex;
-        margin-left: 10px;
-    }
-    
-    h1 {
-        text-align: center;
-    }
-    
-    .navbar-brand {
-        font-family: 'Oleo Script Swash Caps', cursive;
-        margin-top: 10px;
-        font-size: x-large;
-        color: white;
-        text-align: center;
-        padding-left: 50px;
-    }
-    
-    .dropdown-menu {
-        background: none;
-        font-size: x-large;
-        color: antiquewhite;
-    }
-    
-    .outdoor {
-        margin-top: 100px;
-        text-align: center;
-        font-weight: 700;
-        font-weight: 700;
-        background-image: linear-gradient( 110deg, rgba(126, 158, 58, 0.8), rgba(58, 158, 158, 0.7)), url(https://raw.githubusercontent.com/badobacs/Project-Repo/master/Portfolio/KEP_009801.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        opacity: 0, 1;
-    }
-    
-    h1 {
-        text-align: center;
-    }
-    
-    .Box1 {
-        border-radius: 25px;
-        border: 5px solid red;
-        border-style: dotted;
-        padding: 20px;
-        max-width: 1000px;
-        height: 1050px;
-        margin-top: 200px;
-        margin-top: 1.5rem;
-    }
-    
-    .Box1 {
-        border-radius: 25px;
-        border: 5px solid red;
-        border-style: dotted;
-        padding: 20px;
-        max-width: 1000px;
-        height: 1050px;
-        margin: auto;
-        margin-top: 1.5rem;
-    }
-    
-    .pic {
-        margin: auto;
-        display: block;
-        margin-bottom: 1.0em;
-        max-width: 69%;
-        border-style: groove;
-        border-width: 10px;
-        border-color: coral;
-        border-radius: 15px;
-    }
-    
-    table,
-    th,
-    td {
-        width: 0%;
-        high: 30%;
-        border: 4px solid black;
-        border-collapse: collapse;
-        padding: 10px;
-        /*border-radius: 5px;*/
-        text-align: center;
-        margin: 20px auto;
-    }
+html {
+    background-image: linear-gradient( 10deg, rgba(126, 158, 58, 0.8), rgba(58, 158, 158, 0.7)), url(https://raw.githubusercontent.com/badobacs/Project-Repo/master/Portfolio/KEP_00991.jpg);
+    margin: 0;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* background-image: linear-gradient( 10deg, rgba(126, 158, 58, 0.8), rgba(58, 158, 158, 0.7)), url(https://raw.githubusercontent.com/badobacs/Project-Repo/master/Project/KEP_0002.jpg);
+    background-size: cover; */
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    z-index: 10;
+}
+
+ul {
+    direction: row;
+    list-style-type: none;
+    display: flex;
+    margin-left: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.navbar-brand {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    margin-top: 10px;
+    font-size: x-large;
+    color: white;
+    text-align: center;
+    padding-left: 50px;
+}
+
+.dropdown-menu {
+    background: none;
+    font-size: x-large;
+    color: antiquewhite;
+}
+
+.outdoor {
+    margin-top: 72px;
+    text-align: center;
+    font-weight: 700;
+    font-weight: 700;
+    background-image: linear-gradient( 110deg, rgba(126, 158, 58, 0.8), rgba(58, 158, 158, 0.7)), url(https://raw.githubusercontent.com/badobacs/Project-Repo/master/Portfolio/KEP_009801.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0, 6;
+}
+
+h1 {
+    text-align: center;
+}
+
+.Box1 {
+    border-radius: 25px;
+    border: 5px solid red;
+    border-style: dotted;
+    padding: 20px;
+    max-width: 1000px;
+    height: 1050px;
+    margin: auto;
+    margin-top: 1.5rem;
+}
+
+.Box1 {
+    border-radius: 25px;
+    border: 5px solid red;
+    border-style: dotted;
+    padding: 20px;
+    max-width: 1000px;
+    height: 1050px;
+    margin: auto;
+    margin-top: 1.5rem;
+}
+
+.pic {
+    margin: auto;
+    display: block;
+    margin-bottom: 1.0em;
+    max-width: 69%;
+    border-style: groove;
+    border-width: 10px;
+    border-color: coral;
+    border-radius: 15px;
+}
+
+table,
+th,
+td {
+    width: 0%;
+    high: 30%;
+    border: 4px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    /*border-radius: 5px;*/
+    text-align: center;
+    margin: 20px auto;
+}
