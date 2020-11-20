@@ -15,6 +15,7 @@ nav {
     background-repeat: no-repeat;
     background-position: center;
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    background-attachment: fixed;
     z-index: 10;
 }
 
@@ -27,6 +28,19 @@ ul {
 
 h1 {
     text-align: center;
+}
+
+table,
+th,
+td {
+    width: 0%;
+    height: 30%;
+    border: 4px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    /*border-radius: 5px;*/
+    text-align: center;
+    margin: 20px auto;
 }
 
 .navbar-brand {
@@ -56,8 +70,9 @@ h1 {
     opacity: 0, 6;
 }
 
-h1 {
-    text-align: center;
+.search {
+    font-weight: 700;
+    font-size: 50px;
 }
 
 .Box1 {
@@ -91,17 +106,4 @@ h1 {
     border-width: 10px;
     border-color: coral;
     border-radius: 15px;
-}
-
-table,
-th,
-td {
-    width: 0%;
-    high: 30%;
-    border: 4px solid black;
-    border-collapse: collapse;
-    padding: 10px;
-    /*border-radius: 5px;*/
-    text-align: center;
-    margin: 20px auto;
 }
